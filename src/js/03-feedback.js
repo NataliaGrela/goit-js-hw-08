@@ -17,7 +17,7 @@ form.addEventListener(
 );
 
 form.addEventListener('submit', event => {
-  event.preventDefault(),
-    event.currentTarget.reset(),
-    localStorage.removeItem('feedback-form-state');
+  event.preventDefault();
+  event.currentTarget.reset();
+  localStorage.removeItem('feedback-form-state');
 });
